@@ -16,8 +16,6 @@ function App() {
   --color-pink-600: oklch(59.2% 0.249 0.584);">
        <div className="absolute h-40 w-40 bg-red-600 rounded-full z-10 opacity-90 hover:bg-sky-700 hover:scale-125 transition-all duration-300"></div>
 
-
-        
         <p class="relative z-0 text-center text-sm font-medium text-black px-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste incidunt itaque corrupti, possimus ullam eos quis vero minima animi id, repellat est neque iure sed temporibus dolor maxime molestias non!
         </p>
