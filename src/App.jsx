@@ -12,8 +12,11 @@ function App() {
 
     <div class="flex flex-row gap-x-[40px] items-start justify-center">
       
-      <div class="h-100 w-150 bg-gradient-to-t from-yellow-500 to-red-600 relative flex justify-center items-center p-2 overflow-hidden">
-        <div class="absolute h-40 w-40 bg-red-600 rounded-full z-10 opacity-90 hover:bg-sky-700 hover:w-50 hover:h-50 transition-all duration-300"></div>
+      <div class="h-100 w-150 bg-gradient-to-t from-yellow-500 to-red-600 relative flex justify-center items-center p-2 overflow-hidden hover:bg-gradient-to-t from-blue-500 to-pink-600 hover:
+  --color-pink-600: oklch(59.2% 0.249 0.584);">
+       <div className="absolute h-40 w-40 bg-red-600 rounded-full z-10 opacity-90 hover:bg-sky-700 hover:scale-125 transition-all duration-300"></div>
+
+
         
         <p class="relative z-0 text-center text-sm font-medium text-black px-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste incidunt itaque corrupti, possimus ullam eos quis vero minima animi id, repellat est neque iure sed temporibus dolor maxime molestias non!
